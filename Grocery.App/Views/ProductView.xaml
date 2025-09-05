@@ -24,7 +24,7 @@
                             <ColumnDefinition Width="2*"/>
                             <ColumnDefinition Width="*"/>
                         </Grid.ColumnDefinitions>
-                        <Label Grid.Column="0" Text="{Binding Name} test"/>
+                        <Label Grid.Column="0" Text="{Binding Name}"/>
                         <Label Grid.Column="1" Text="{Binding Stock, StringFormat='{}{0:F0} op voorraad'}" HorizontalOptions="End">
                             <Label.Triggers>
                                 <DataTrigger TargetType="Label" Binding="{Binding Stock}" Value="0">
